@@ -78,7 +78,7 @@ def bag():
 #     user_orange = request.form['orange']
     # orders.insert({'pizza': user_pizza, 'chicken': user_chicken, 'burger': user_burger, 'broccoli': user_broccoli,
     #               'carrot': user_carrot, 'potato': user_potato, 'apple': user_apple, 'bannana': user_bannana, 'orange': user_orange})
-    # return "Order Sent"
+    # return Order Sent
 
     # orders = order.find({'pizza', 'chicken', 'burger', 'apple',
     #                     'orange', 'bannana', 'broccoli', 'carrot', 'potato'})
