@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<title>Ordering Page</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<h1 style='text-align: center'>Ordering Page</h1>
+
+
+<form method='POST' action='/bag'>
+    <div style='display:flex;  ' class="card-group"></div>
+     <div style='border-color: red; border-style: solid; border-width: 30px' class="card">
+        <img class="card-img-top" src="static/images/apple.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <h3 style='color:red' class="card-title">Apples $0.99 per pound</h3>
+            <h3 style='color: red' class="card-text"> Select how many pounds of apples you would like to buy</h3>
+            <p class="card-text"><small class="text-muted">
+                    <input type="number" name="apple" required>
+                </small></p>
+        </div>
+    </div>
+    <div style='display:flex ;border-color: orange; border-style: solid; border-width: 30px' class="card">
+        <img class="card-img-top" src="static/images/oranges.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <h3 style='color: orange' class="card-title">Oranges $0.99 per pound</h3>
+            <h3 style='color: orange' class="card-text">Select how many pounds of oranges you would like to buy.</h3>
+            <p class="card-text"><small class="text-muted">
+                    <input type="number" name="orange" required>
+                </small></p>
+        </div>
+    </div>
+    <div style='display:flex ;border-color: greenyellow; border-style: solid; border-width: 30px' class="card">
+        <img class="card-img-top" src="static/images/bannana.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <h3 style='color: greenyellow' class="card-title">Bannanas $1.49 per pound</h3>
+            <h3 style='color: greenyellow' class="card-text">Select the amount of pounds of bannanas you would like to
+                buy.</h3>
+            <p class="card-text"><small class="text-muted">
+                    <input type="number" name="bannana" required>
+        </div>
+    </div>
+    <div style='display:flex ;border-color:green; border-style: solid; border-width: 30px' class="card">
+        <img class="card-img-top" src="static/images/broccoli.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <h3 style='color:green' class="card-title">Broccoli $0.99 per pound</h3>
+            <h3 style='color:green' class="card-text">Select how many pounds of broccoli you would like to buy</h3>
+            <p class="card-text"><small class="text-muted">
+                    <input type="number" name="broccoli" required>
+        </div>
+    </div>
+    <div style='display:flex; height: 200px ;border-color: orange; border-style: solid; border-width: 30px' class="card">
+        <img class="card-img-top" src="static/images/carrots.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <h3 style='color: orange' class="card-title">Carrots $0.99 per pound</h3>
+            <h3 style='color: orange' class="card-text">Select how many pounds of carrots you would like to buy.</h3>
+            <p class="card-text"><small class="text-muted">
+                    <input type="number" name="carrot" required>
+                </small></p>
+        </div>
+      </div>
+      <div style='display:flex ;border-color:brown; border-style: solid; border-width: 30px' class="card">
+        <img class="card-img-top" src='static/images/potatoe.jpeg' alt="Card image cap">
+        <div class="card-body">
+            <h3 style='color: brown' class="card-title">Potatoes $1.49 per pound</h3>
+            <h3 style='color: brown' class="card-text">Select the amount of pounds of potatoes you would like to buy.</h3>
+            <p class="card-text"><small class="text-muted">
+                    <input type="number" name="potato" required>
+        </div>
+     </div>
+
+     <div style='display:flex ;border-color: orange; border-style: solid; border-width: 30px' class="card">
+        <img class="card-img-top" src="static/images/pizza.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <h3 style='color: orange' class="card-title">Pizza. $3.99 per slice</h3>
+            <h3 style='color: orange' class="card-text">Select How many slices of Pizzas you wish to buy</h3>
+            <p class="card-text"><small class="text-muted">
+                    <input type="number" name="pizza" required>
+
+            </p></small></p>
+        </div>
+     </div>
+     <div style='display:flex;height: 200px ;border-color:brown; border-style: solid; border-width: 30px' class="card">
+        <img class="card-img-top" src="static/images/friedchicken.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <h3 style='color:brown' class="card-title">Fried Chicken $8.99 for a 3 piece</h3>
+            <h3 style='color:brown' class="card-text"> Enter how many three piece fried chickens you would like to order
+            </h3>
+            <p class="card-text"><small class="text-muted">
+                    <input type="number" name="chicken" required>
+        </div>
+     </div>
+     <div style='display:flex ;border-color: mediumaquamarine; border-style: solid; border-width: 30px' class="card">
+        <img class="card-img-top" src="static/images/bburger.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <h3 style='color:mediumaquamarine' class="card-title">Burger and Fries $6.99</h3>
+            <h3 style='color: mediumaquamarine' class="card-text">Enter how many burgers and fries packages would you
+                like to
+                buy.</h3>
+            <p class="card-text"><small class="text-muted">
+                    <input type="number" name="burger" required>
+        </div>
+    </div>
+    <input type="submit" value='Submit'>
+</form>
+</div. </body>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
