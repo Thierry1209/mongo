@@ -2,26 +2,26 @@ from flask import Flask
 from flask import request
 
 
-def pizza(number):
-    if request.form['pizza'] > str(1):
-        return 'You have requested ' + request.form['pizza'] + ' slices of pizza.'
-    elif request.form['pizza'] == str(1):
-        return 'You have requested 1 slice of pizza.'
+def onion(number):
+    if request.form['onion'] > str(1):
+        return 'You have requested ' + request.form['onion'] + ' pounds of onions.'
+    elif request.form['onion'] == str(1):
+        return 'You have requested 1 pound of onions.'
     else:
         return ''
 
-def burger(number):
-    if request.form['burger'] > str(1):
-        return 'You have requested ' + request.form['burger'] + ' orders of burgers and fries.'
-    elif request.form['burger'] == str(1):
-        return 'You have requested 1 order of burgers and fries.'
+def sprout(number):
+    if request.form['kale'] > str(1):
+        return 'You have requested ' + request.form['sprout'] + ' pounds of brussel sprouts.'
+    elif request.form['kale'] == str(1):
+        return 'You have requested 1 pound of brussel sprouts.'
     else:
         return ''
-def chicken(number):
-    if request.form['chicken'] > str(1):
-        return 'You have requested ' + request.form['chicken'] + ' orders of three piece fried chickens.'
-    elif request.form['chicken'] == str(1):
-        return 'You have requested 1 three piece chicken.'
+def kale(number):
+    if request.form['sprout'] > str(1):
+        return 'You have requested ' + request.form['kale'] + ' pounds of kale.'
+    elif request.form['sprout'] == str(1):
+        return 'You have requested 1 pound of kale.'
     else:
         return ''
 def apple(number):
@@ -39,7 +39,7 @@ def orange(number):
     else:
         return ''
 def bannana(number):
-    if request.form['pizza'] > str(1):
+    if request.form['bannana'] > str(1):
         return 'You have requested ' +  request.form['bannana'] +  ' pounds of bannanas.'
     elif request.form['bannana'] == str(1):
         return 'You have requested 1 pound of bannanas.' 
